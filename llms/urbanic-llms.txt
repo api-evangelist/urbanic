@@ -1,0 +1,17 @@
+# Urbanic
+
+> Urbanic is an online fast-fashion retailer selling women's apparel and accessories through app-first, localized storefronts, including in.urbanic.com (India) and mx.urbanic.com (Mexico). It is a consumer ecommerce business and does not publish a public developer API, developer portal, or API documentation.
+
+Urbanic is part of the API Evangelist network as a company profile. Its storefront frontend is driven by a first-party consumer API (api-shop-in.urbanic.com) that is not offered to third-party developers. No OpenAPI, SDKs, webhooks, or /.well-known/ discovery documents were found on its public surface.
+
+## Company
+
+- [Urbanic India storefront](https://in.urbanic.com): Primary storefront (India)
+- [Urbanic Mexico storefront](https://mx.urbanic.com): Localized storefront (Mexico)
+- [Help Center](https://in.urbanic.com/help-center/customer-service): Customer service and support
+- [Privacy Policy](https://in.urbanic.com/help-center/privacy-policy): Privacy policy
+- [Terms & Conditions](https://in.urbanic.com/help-center/terms-conditions): Terms of use
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/urbanic/refs/heads/main/apis.yml): Machine-readable company profile maintained by API Evangelist

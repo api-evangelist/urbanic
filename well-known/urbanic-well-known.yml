@@ -1,0 +1,60 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of urbanic.com hosts
+note: >-
+  No /.well-known/ discovery documents are published. On the storefront hosts every
+  /.well-known/ path returns a 301 redirect to the homepage (soft-404); on the
+  first-party consumer API host (api-shop-in.urbanic.com) the paths return hard 404s.
+  No raw documents were saved because none exist.
+hosts:
+- host: https://in.urbanic.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    note: redirects to homepage (soft-404)
+  - path: /.well-known/openid-configuration
+    status: 301
+    note: redirects to homepage (soft-404)
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    note: redirects to homepage (soft-404)
+  - path: /.well-known/api-catalog
+    status: 301
+    note: redirects to homepage (soft-404)
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    note: redirects to homepage (soft-404)
+  - path: /llms.txt
+    status: 301
+    note: redirects to homepage (soft-404)
+  - path: /robots.txt
+    status: 200
+    note: "allowlists major crawlers; catch-all user-agents are disallowed from /"
+- host: https://us.urbanic.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    note: redirects to homepage (soft-404)
+  - path: /.well-known/openid-configuration
+    status: 301
+    note: redirects to homepage (soft-404)
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    note: redirects to homepage (soft-404)
+  - path: /.well-known/api-catalog
+    status: 301
+    note: redirects to homepage (soft-404)
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    note: redirects to homepage (soft-404)
+  - path: /robots.txt
+    status: 200
+- host: https://api-shop-in.urbanic.com
+  note: first-party consumer shop API host referenced by the storefront frontend; not a public developer API
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
