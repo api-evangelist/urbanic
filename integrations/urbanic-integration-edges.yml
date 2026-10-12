@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/urbanic/integrations
+- https://n8n.io/integrations/urbanic/
+- https://composio.dev/toolkits/urbanic
+- https://monid.ai/tools/urbanic
+checked:
+- https://composio.dev/toolkits/urbanic
+- https://monid.ai/tools/urbanic
+- https://n8n.io/integrations/urbanic/
+- https://zapier.com/apps/urbanic/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
